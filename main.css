@@ -1,0 +1,21 @@
+body {
+    background-color: #9c8f3a;
+}
+
+li {
+    color: #353230;
+}
+.btn.btn-danger {
+  background-color: #353230;
+  border: none;
+}
+.btn.btn-danger:hover {
+  background-color: #000;
+}
+.btn.btn-primary {
+  background-color: #000;
+  border: none;
+}
+.btn.btn-primary:hover {
+  background-color: #353230;
+}
