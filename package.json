@@ -1,0 +1,22 @@
+{
+  "name": "sockets-assign",
+  "version": "1.0.0",
+  "description": "another web protocol, used to overcome limitations of traditional HTTP connection. - built on top of TCP - to establish a websocket connection, we first send an HTTP request, with a special 'upgrade' header. - forms bidirectional communication between client and server. the server can proactively send down information without the client requesting it each time. - an alternative to AJAX.",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericzprice/sockets-assign.git"
+  },
+  "author": "eric price",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericzprice/sockets-assign/issues"
+  },
+  "homepage": "https://github.com/ericzprice/sockets-assign#readme"
+}
