@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "another web protocol, used to overcome limitations of traditional HTTP connection. - built on top of TCP - to establish a websocket connection, we first send an HTTP request, with a special 'upgrade' header. - forms bidirectional communication between client and server. the server can proactively send down information without the client requesting it each time. - an alternative to AJAX.",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
